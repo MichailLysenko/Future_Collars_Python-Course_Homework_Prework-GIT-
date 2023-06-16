@@ -24,10 +24,7 @@ spüren sie Befriedigung.
 Es gibt nichts mehr, was sie jetzt aufhält
 in ihrer gnadenlosen Wut.
 
-Refrain B: Hey, hier kommt Alex!
-Vorhang auf - für seine Horrorschau.
-Hey, hier kommt Alex!
-Vorhang auf - für ein kleines bisschen Horrorschau.
+Refrain B: Refren_B.txt
 
 5. Zwanzig gegen einen
 bis das Blut zum Vorschein kommt.
