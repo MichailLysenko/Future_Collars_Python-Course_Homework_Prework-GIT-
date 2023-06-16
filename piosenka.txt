@@ -12,10 +12,7 @@ beginnt für die Droogs der Tag.
 In kleinen Banden sammeln sie sich,
 gehn gemeinsam auf die Jagd.
 
-Refrain A: Hey, hier kommt Alex!
-Vorhang auf - für seine Horrorschau.
-Hey, hier kommt Alex!
-Vorhang auf - für ein kleines bisschen Horrorschau.
+Refrain A: Refren_A.txt
 
 3. Auf dem Kreuzzug gegen die Ordnung
 und die scheinbar heile Welt
