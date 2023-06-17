@@ -8,8 +8,8 @@ Refrain A: Refren_A.txt
 
 4. Zwrotka_4.txt
 
-Refrain B: Refren_B.txt
+Refrain B: Refren_A.txt
 
 5. Zwrotka_5.txt
 
-Refrain C: Refren_C.txt
+Refrain C: Refren_A.txt
