@@ -1,0 +1,520 @@
+commit a2f9f8b74d390e27a6bdf147bdcd6f8f6b5e14cc
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 02:04:33 2023 +0200
+
+    Zmiana nazw refrenów z B i C na A jednolicie
+
+diff --git a/piosenka.txt b/piosenka.txt
+index ec0d2bf..f14cefa 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -8,8 +8,8 @@ Refrain A: Refren_A.txt
+ 
+ 4. Zwrotka_4.txt
+ 
+-Refrain B: Refren_B.txt
++Refrain B: Refren_A.txt
+ 
+ 5. Zwrotka_5.txt
+ 
+-Refrain C: Refren_C.txt
++Refrain C: Refren_A.txt
+
+commit 0e9d9779be2202ff0b202db74a1cb1313597f506
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 02:00:56 2023 +0200
+
+    Usunięcie pliku z powtarzającym się tekstem refrenu - Refren_C.txt
+
+diff --git a/Refren_C.txt b/Refren_C.txt
+deleted file mode 100644
+index 325e9e9..0000000
+--- a/Refren_C.txt
++++ /dev/null
+@@ -1,4 +0,0 @@
+-Refrain C: Hey, hier kommt Alex!
+-Vorhang auf - für seine Horrorschau.
+-Hey, hier kommt Alex!
+-Vorhang auf - für ein kleines bisschen Horrorschau
+
+commit 286c209ff5b8e2129da1b596a0e0a09e56d3cf3f
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 02:00:24 2023 +0200
+
+    Usunięcie pliku z powtarzającym się tekstem refrenu - Refren_B.txt
+
+diff --git a/Refren_B.txt b/Refren_B.txt
+deleted file mode 100644
+index e140edf..0000000
+--- a/Refren_B.txt
++++ /dev/null
+@@ -1,4 +0,0 @@
+-Refrain B: Hey, hier kommt Alex!
+-Vorhang auf - für seine Horrorschau.
+-Hey, hier kommt Alex!
+-Vorhang auf - für ein kleines bisschen Horrorschau.
+\ No newline at end of file
+
+commit c044598d09887c80782664d7096535108d6dcf2f
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:53:08 2023 +0200
+
+    Zwrot ostatniej linii w refrenie A pliku Refren_A.txt
+
+diff --git a/Refren_A.txt b/Refren_A.txt
+index 3f06ffb..c55f74e 100644
+--- a/Refren_A.txt
++++ b/Refren_A.txt
+@@ -1,3 +1,4 @@
+ Refrain A: Hey, hier kommt Alex!
+ Vorhang auf - für seine Horrorschau.
+ Hey, hier kommt Alex!
++Vorhang auf - für ein kleines bisschen Horrorschau.
+\ No newline at end of file
+
+commit 04e5485639889ed94198c6ca57783a93026a8e30
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:31:38 2023 +0200
+
+    Usunięcie ostatniej linii w refrenie A pliku Refren_A.txt
+
+diff --git a/Refren_A.txt b/Refren_A.txt
+index c55f74e..3f06ffb 100644
+--- a/Refren_A.txt
++++ b/Refren_A.txt
+@@ -1,4 +1,3 @@
+ Refrain A: Hey, hier kommt Alex!
+ Vorhang auf - für seine Horrorschau.
+ Hey, hier kommt Alex!
+-Vorhang auf - für ein kleines bisschen Horrorschau.
+\ No newline at end of file
+
+commit 34f8816f01934f31cab1566c6cb6b525ab3a8068
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:26:08 2023 +0200
+
+    Zmiany w pliku - wicięcie zwrotek i refrenów i zamiana tekstu na nazwy plików
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 17b8773..ec0d2bf 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,38 +1,15 @@
+-1. In einer Welt, in der man nur noch lebt,
+-damit man täglich roboten geht,
+-ist die größte Aufregung, die es noch gibt,
+-das allabendliche Fernsehbild.
++1. Zwrotka_1.txt
+ 
+-2. Jeder Mensch lebt wie ein Uhrwerk,
+-wie ein Computer programmiert.
+-Es gibt keinen, der sich dagegen wehrt,
+-nur ein paar Jugendliche sind frustriert.
+-Wenn am Himmel die Sonne untergeht,
+-beginnt für die Droogs der Tag.
+-In kleinen Banden sammeln sie sich,
+-gehn gemeinsam auf die Jagd.
++2. Zwrotka_2.txt
+ 
+ Refrain A: Refren_A.txt
+ 
+-3. Auf dem Kreuzzug gegen die Ordnung
+-und die scheinbar heile Welt
+-zelebrieren sie die Zerstörung,
+-Gewalt und Brutalität.
++3. Zwrotka_3.txt
+ 
+-4. Erst wenn sie ihre Opfer leiden sehn,
+-spüren sie Befriedigung.
+-Es gibt nichts mehr, was sie jetzt aufhält
+-in ihrer gnadenlosen Wut.
++4. Zwrotka_4.txt
+ 
+ Refrain B: Refren_B.txt
+ 
+-5. Zwanzig gegen einen
+-bis das Blut zum Vorschein kommt.
+-Ob mit Stöcken oder Steinen,
+-irgendwann platzt jeder Kopf.
+-Das nächste Opfer ist schon dran,
+-wenn ihr den lieben Gott noch fragt:
+-"Warum hast Du nichts getan,
+-nichts getan?"
++5. Zwrotka_5.txt
+ 
+ Refrain C: Refren_C.txt
+
+commit d06f817b5fdd2f5d262d31a7e574af41c61adac3
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:24:48 2023 +0200
+
+    Przeniesienie zwrotki 5 do odpowiedniego pliku i zamiana wyciętego tekstu na nazwę pliku
+
+diff --git a/Zwrotka_4.txt b/Zwrotka_4.txt
+index e69de29..f856340 100644
+--- a/Zwrotka_4.txt
++++ b/Zwrotka_4.txt
+@@ -0,0 +1,4 @@
++4. Erst wenn sie ihre Opfer leiden sehn,
++spüren sie Befriedigung.
++Es gibt nichts mehr, was sie jetzt aufhält
++in ihrer gnadenlosen Wut.
+\ No newline at end of file
+diff --git a/Zwrotka_5.txt b/Zwrotka_5.txt
+index e69de29..02e9426 100644
+--- a/Zwrotka_5.txt
++++ b/Zwrotka_5.txt
+@@ -0,0 +1,8 @@
++5. Zwanzig gegen einen
++bis das Blut zum Vorschein kommt.
++Ob mit Stöcken oder Steinen,
++irgendwann platzt jeder Kopf.
++Das nächste Opfer ist schon dran,
++wenn ihr den lieben Gott noch fragt:
++"Warum hast Du nichts getan,
++nichts getan?"
+\ No newline at end of file
+
+commit 1efc0c1b9d527bd60638ca883e5879dc919ac73c
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:22:00 2023 +0200
+
+    Przeniesienie zwrotki 3 do odpowiedniego pliku i zamiana wyciętego tekstu na nazwę pliku
+
+diff --git a/Zwrotka_3.txt b/Zwrotka_3.txt
+index e69de29..359d8fe 100644
+--- a/Zwrotka_3.txt
++++ b/Zwrotka_3.txt
+@@ -0,0 +1,4 @@
++3. Auf dem Kreuzzug gegen die Ordnung
++und die scheinbar heile Welt
++zelebrieren sie die Zerstörung,
++Gewalt und Brutalität.
+\ No newline at end of file
+
+commit cb8dc6a3501035f4dc15c1fbd4f41fba8c28c871
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:21:21 2023 +0200
+
+    Przeniesienie zwrotki 2 do odpowiedniego pliku i zamiana wyciętego tekstu na nazwę pliku
+
+diff --git a/Zwrotka_2.txt b/Zwrotka_2.txt
+index e69de29..2edeb1d 100644
+--- a/Zwrotka_2.txt
++++ b/Zwrotka_2.txt
+@@ -0,0 +1,8 @@
++2. Jeder Mensch lebt wie ein Uhrwerk,
++wie ein Computer programmiert.
++Es gibt keinen, der sich dagegen wehrt,
++nur ein paar Jugendliche sind frustriert.
++Wenn am Himmel die Sonne untergeht,
++beginnt für die Droogs der Tag.
++In kleinen Banden sammeln sie sich,
++gehn gemeinsam auf die Jagd.
+\ No newline at end of file
+
+commit fcb60ead4306d9722a77b7c9e13bff90d60476fc
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:20:28 2023 +0200
+
+    Przeniesienie zwrotki 1 do odpowiedniego pliku i zamiana wyciętego tekstu na nazwę pliku
+
+diff --git a/Zwrotka_1.txt b/Zwrotka_1.txt
+index e69de29..76a5a2d 100644
+--- a/Zwrotka_1.txt
++++ b/Zwrotka_1.txt
+@@ -0,0 +1,4 @@
++1. In einer Welt, in der man nur noch lebt,
++damit man täglich roboten geht,
++ist die größte Aufregung, die es noch gibt,
++das allabendliche Fernsehbild.
+\ No newline at end of file
+
+commit fdb89062e4930694ada942ee6bc4e4147637ad06
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:13:37 2023 +0200
+
+    Przeniesienie refrenu C do odpowiedniego pliku i zamiana wyciętego tekstu na nazwę pliku
+
+diff --git a/Refren_C.txt b/Refren_C.txt
+index e69de29..325e9e9 100644
+--- a/Refren_C.txt
++++ b/Refren_C.txt
+@@ -0,0 +1,4 @@
++Refrain C: Hey, hier kommt Alex!
++Vorhang auf - für seine Horrorschau.
++Hey, hier kommt Alex!
++Vorhang auf - für ein kleines bisschen Horrorschau
+diff --git a/piosenka.txt b/piosenka.txt
+index e7d5377..17b8773 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -35,7 +35,4 @@ wenn ihr den lieben Gott noch fragt:
+ "Warum hast Du nichts getan,
+ nichts getan?"
+ 
+-Refrain C: Hey, hier kommt Alex!
+-Vorhang auf - für seine Horrorschau.
+-Hey, hier kommt Alex!
+-Vorhang auf - für ein kleines bisschen Horrorschau
++Refrain C: Refren_C.txt
+
+commit 3e3d21307c71c464e3ddf329139f8a162ca160a5
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:10:16 2023 +0200
+
+    Przeniesienie refrenu B do odpowiedniego pliku i zamiana wyciętego tekstu na nazwę pliku
+
+diff --git a/Refren_B.txt b/Refren_B.txt
+index e69de29..e140edf 100644
+--- a/Refren_B.txt
++++ b/Refren_B.txt
+@@ -0,0 +1,4 @@
++Refrain B: Hey, hier kommt Alex!
++Vorhang auf - für seine Horrorschau.
++Hey, hier kommt Alex!
++Vorhang auf - für ein kleines bisschen Horrorschau.
+\ No newline at end of file
+diff --git a/piosenka.txt b/piosenka.txt
+index d05e67d..e7d5377 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -24,10 +24,7 @@ spüren sie Befriedigung.
+ Es gibt nichts mehr, was sie jetzt aufhält
+ in ihrer gnadenlosen Wut.
+ 
+-Refrain B: Hey, hier kommt Alex!
+-Vorhang auf - für seine Horrorschau.
+-Hey, hier kommt Alex!
+-Vorhang auf - für ein kleines bisschen Horrorschau.
++Refrain B: Refren_B.txt
+ 
+ 5. Zwanzig gegen einen
+ bis das Blut zum Vorschein kommt.
+
+commit 832ebcf2648baad40f5d7ce21c5db007bacbd338
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:06:47 2023 +0200
+
+    Przeniesienie refrenu A do odpowiedniego pliku i zamiana wyciętego tekstuna nazwę pliku
+
+diff --git a/Refren_A.txt b/Refren_A.txt
+index e69de29..c55f74e 100644
+--- a/Refren_A.txt
++++ b/Refren_A.txt
+@@ -0,0 +1,4 @@
++Refrain A: Hey, hier kommt Alex!
++Vorhang auf - für seine Horrorschau.
++Hey, hier kommt Alex!
++Vorhang auf - für ein kleines bisschen Horrorschau.
+\ No newline at end of file
+diff --git a/piosenka.txt b/piosenka.txt
+index 5649384..d05e67d 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -12,10 +12,7 @@ beginnt für die Droogs der Tag.
+ In kleinen Banden sammeln sie sich,
+ gehn gemeinsam auf die Jagd.
+ 
+-Refrain A: Hey, hier kommt Alex!
+-Vorhang auf - für seine Horrorschau.
+-Hey, hier kommt Alex!
+-Vorhang auf - für ein kleines bisschen Horrorschau.
++Refrain A: Refren_A.txt
+ 
+ 3. Auf dem Kreuzzug gegen die Ordnung
+ und die scheinbar heile Welt
+
+commit e92f26235a6b0b1221957dab0d37ab7fe24a4016
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 01:01:53 2023 +0200
+
+    Poprawione nazwy plików dla zwrotek i refrenów
+
+diff --git a/Refren_A.txt b/Refren_A.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/Refren_B.txt b/Refren_B.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/Refren_C.txt b/Refren_C.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/Zwrotka_1.txt b/Zwrotka_1.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/Zwrotka_2.txt b/Zwrotka_2.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/Zwrotka_3.txt b/Zwrotka_3.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/Zwrotka_4.txt b/Zwrotka_4.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/Zwrotka_5.txt b/Zwrotka_5.txt
+new file mode 100644
+index 0000000..e69de29
+
+commit 65f5c51eda913ebced72dcfbba686b2e22012a7a
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 00:12:53 2023 +0200
+
+    Podział refrenów na A, B i C
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 1b6db0b..5649384 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -12,7 +12,7 @@ beginnt für die Droogs der Tag.
+ In kleinen Banden sammeln sie sich,
+ gehn gemeinsam auf die Jagd.
+ 
+-Refrain: Hey, hier kommt Alex!
++Refrain A: Hey, hier kommt Alex!
+ Vorhang auf - für seine Horrorschau.
+ Hey, hier kommt Alex!
+ Vorhang auf - für ein kleines bisschen Horrorschau.
+@@ -27,7 +27,7 @@ spüren sie Befriedigung.
+ Es gibt nichts mehr, was sie jetzt aufhält
+ in ihrer gnadenlosen Wut.
+ 
+-Refrain: Hey, hier kommt Alex!
++Refrain B: Hey, hier kommt Alex!
+ Vorhang auf - für seine Horrorschau.
+ Hey, hier kommt Alex!
+ Vorhang auf - für ein kleines bisschen Horrorschau.
+@@ -41,7 +41,7 @@ wenn ihr den lieben Gott noch fragt:
+ "Warum hast Du nichts getan,
+ nichts getan?"
+ 
+-Refrain: Hey, hier kommt Alex!
++Refrain C: Hey, hier kommt Alex!
+ Vorhang auf - für seine Horrorschau.
+ Hey, hier kommt Alex!
+ Vorhang auf - für ein kleines bisschen Horrorschau
+
+commit 1932263a25e85aeba737be601417b4ca445a9f56
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Sat Jun 17 00:00:08 2023 +0200
+
+    Podział na zwrotki i refreny
+
+diff --git a/piosenka.txt b/piosenka.txt
+index b62f61b..1b6db0b 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,9 +1,9 @@
+-In einer Welt, in der man nur noch lebt,
++1. In einer Welt, in der man nur noch lebt,
+ damit man täglich roboten geht,
+ ist die größte Aufregung, die es noch gibt,
+ das allabendliche Fernsehbild.
+ 
+-Jeder Mensch lebt wie ein Uhrwerk,
++2. Jeder Mensch lebt wie ein Uhrwerk,
+ wie ein Computer programmiert.
+ Es gibt keinen, der sich dagegen wehrt,
+ nur ein paar Jugendliche sind frustriert.
+@@ -12,27 +12,27 @@ beginnt für die Droogs der Tag.
+ In kleinen Banden sammeln sie sich,
+ gehn gemeinsam auf die Jagd.
+ 
+-Hey, hier kommt Alex!
++Refrain: Hey, hier kommt Alex!
+ Vorhang auf - für seine Horrorschau.
+ Hey, hier kommt Alex!
+ Vorhang auf - für ein kleines bisschen Horrorschau.
+ 
+-Auf dem Kreuzzug gegen die Ordnung
++3. Auf dem Kreuzzug gegen die Ordnung
+ und die scheinbar heile Welt
+ zelebrieren sie die Zerstörung,
+ Gewalt und Brutalität.
+ 
+-Erst wenn sie ihre Opfer leiden sehn,
++4. Erst wenn sie ihre Opfer leiden sehn,
+ spüren sie Befriedigung.
+ Es gibt nichts mehr, was sie jetzt aufhält
+ in ihrer gnadenlosen Wut.
+ 
+-Hey, hier kommt Alex!
++Refrain: Hey, hier kommt Alex!
+ Vorhang auf - für seine Horrorschau.
+ Hey, hier kommt Alex!
+ Vorhang auf - für ein kleines bisschen Horrorschau.
+ 
+-Zwanzig gegen einen
++5. Zwanzig gegen einen
+ bis das Blut zum Vorschein kommt.
+ Ob mit Stöcken oder Steinen,
+ irgendwann platzt jeder Kopf.
+@@ -41,7 +41,7 @@ wenn ihr den lieben Gott noch fragt:
+ "Warum hast Du nichts getan,
+ nichts getan?"
+ 
+-Hey, hier kommt Alex!
++Refrain: Hey, hier kommt Alex!
+ Vorhang auf - für seine Horrorschau.
+ Hey, hier kommt Alex!
+ Vorhang auf - für ein kleines bisschen Horrorschau
+
+commit d94d82f378747b4b880972e3abe54dd4ccafc318
+Author: Michail Lysenko <michail.lysenk@gmail.com>
+Date:   Fri Jun 16 23:53:44 2023 +0200
+
+    Nowe repozytorium z piosenką
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..b62f61b
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,47 @@
++In einer Welt, in der man nur noch lebt,
++damit man täglich roboten geht,
++ist die größte Aufregung, die es noch gibt,
++das allabendliche Fernsehbild.
++
++Jeder Mensch lebt wie ein Uhrwerk,
++wie ein Computer programmiert.
++Es gibt keinen, der sich dagegen wehrt,
++nur ein paar Jugendliche sind frustriert.
++Wenn am Himmel die Sonne untergeht,
++beginnt für die Droogs der Tag.
++In kleinen Banden sammeln sie sich,
++gehn gemeinsam auf die Jagd.
++
++Hey, hier kommt Alex!
++Vorhang auf - für seine Horrorschau.
++Hey, hier kommt Alex!
++Vorhang auf - für ein kleines bisschen Horrorschau.
++
++Auf dem Kreuzzug gegen die Ordnung
++und die scheinbar heile Welt
++zelebrieren sie die Zerstörung,
++Gewalt und Brutalität.
++
++Erst wenn sie ihre Opfer leiden sehn,
++spüren sie Befriedigung.
++Es gibt nichts mehr, was sie jetzt aufhält
++in ihrer gnadenlosen Wut.
++
++Hey, hier kommt Alex!
++Vorhang auf - für seine Horrorschau.
++Hey, hier kommt Alex!
++Vorhang auf - für ein kleines bisschen Horrorschau.
++
++Zwanzig gegen einen
++bis das Blut zum Vorschein kommt.
++Ob mit Stöcken oder Steinen,
++irgendwann platzt jeder Kopf.
++Das nächste Opfer ist schon dran,
++wenn ihr den lieben Gott noch fragt:
++"Warum hast Du nichts getan,
++nichts getan?"
++
++Hey, hier kommt Alex!
++Vorhang auf - für seine Horrorschau.
++Hey, hier kommt Alex!
++Vorhang auf - für ein kleines bisschen Horrorschau
